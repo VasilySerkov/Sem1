@@ -15,7 +15,7 @@ int[] FillArray(int size)
 void PositivCount(int[] ary, out int Count)
 {
     Count = 0;
-    for (int j = 1; j < ary.Length; j++)
+    for (int j = 0; j < ary.Length; j++)
         {
         if(ary[j] > 0)
         {
